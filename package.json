@@ -1,0 +1,42 @@
+{
+  "name": "a11y-loop-promo-video",
+  "version": "1.0.0",
+  "description": "Promotional / feature video for a11y-loop, built with Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@remotion/cli": "4.0.499",
+    "@remotion/google-fonts": "4.0.499",
+    "@remotion/media": "4.0.499",
+    "@remotion/shapes": "4.0.499",
+    "@remotion/transitions": "4.0.499",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.499"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "playwright": "^1.62.0",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render PromoVideo out/a11y-loop-promo.mp4",
+    "render:reduced": "remotion render PromoVideoReducedMotion out/a11y-loop-promo-reduced-motion.mp4",
+    "render:teaser": "remotion render Teaser out/a11y-loop-teaser.mp4",
+    "capture": "node capture/capture-all.mjs",
+    "captions": "node scripts/generate-captions.mjs",
+    "generate-audio": "node --env-file=.env scripts/generate-audio.mjs",
+    "verify": "node capture/verify-assets.mjs",
+    "verify:palette": "node capture/verify-palette.mjs",
+    "verify:flash": "node capture/check-flash.mjs out/a11y-loop-promo.mp4",
+    "lint": "tsc"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

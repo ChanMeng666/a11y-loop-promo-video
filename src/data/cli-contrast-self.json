@@ -1,0 +1,15 @@
+{
+  "name": "contrast-self",
+  "command": "a11y-loop contrast \"#0B4AA8\" \"#FAFAF7\"",
+  "argv": [
+    "a11y-loop",
+    "contrast",
+    "#0B4AA8",
+    "#FAFAF7"
+  ],
+  "stdout": "#0b4aa8 on #fafaf7 — 7.84:1\n  measured as: normal text\n  PASS AA (4.5:1)  ·  PASS AAA (7:1)\n  SC 1.4.3 Contrast (Minimum) (Level AA) requires 4.5:1\n\nContrast is measured with the WCAG 2.x algorithm; the ratio is truncated to two\ndecimals, matching axe-core and the WebAIM Contrast Checker.\n",
+  "stderr": "",
+  "exitCode": 0,
+  "durationMs": 663,
+  "capturedBy": "capture/run-cli.mjs — verbatim, untrimmed"
+}

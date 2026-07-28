@@ -1,0 +1,94 @@
+{
+  "generatedFrom": "src/captions/script.json",
+  "vo": {
+    "vo-01-barrier": {
+      "file": "vo-01-barrier.mp3",
+      "startSec": 5,
+      "duration": 7.709025,
+      "words": 19
+    },
+    "vo-02-why": {
+      "file": "vo-02-why.mp3",
+      "startSec": 16,
+      "duration": 13.049615,
+      "words": 32
+    },
+    "vo-03-thesis": {
+      "file": "vo-03-thesis.mp3",
+      "startSec": 33,
+      "duration": 8.219864,
+      "words": 19
+    },
+    "vo-04-loop": {
+      "file": "vo-04-loop.mp3",
+      "startSec": 43,
+      "duration": 16.068209,
+      "words": 44
+    },
+    "vo-05-passes": {
+      "file": "vo-05-passes.mp3",
+      "startSec": 66,
+      "duration": 22.430476,
+      "words": 53
+    },
+    "vo-06-before-after": {
+      "file": "vo-06-before-after.mp3",
+      "startSec": 92.5,
+      "duration": 14.860771,
+      "words": 41
+    },
+    "vo-07-benchmark": {
+      "file": "vo-07-benchmark.mp3",
+      "startSec": 115.5,
+      "duration": 13.560454,
+      "words": 31
+    },
+    "vo-08-honesty": {
+      "file": "vo-08-honesty.mp3",
+      "startSec": 131,
+      "duration": 19.040363,
+      "words": 44
+    },
+    "vo-09-cta": {
+      "file": "vo-09-cta.mp3",
+      "startSec": 153.5,
+      "duration": 18.436644,
+      "words": 42
+    }
+  },
+  "sfx": {
+    "sfx-key": {
+      "file": "sfx-key.mp3",
+      "duration": 0.48
+    },
+    "sfx-deadend": {
+      "file": "sfx-deadend.mp3",
+      "duration": 1
+    },
+    "sfx-page": {
+      "file": "sfx-page.mp3",
+      "duration": 0.88
+    },
+    "sfx-wipe": {
+      "file": "sfx-wipe.mp3",
+      "duration": 0.8
+    },
+    "sfx-tick": {
+      "file": "sfx-tick.mp3",
+      "duration": 0.48
+    },
+    "sfx-pass": {
+      "file": "sfx-pass.mp3",
+      "duration": 1.2
+    },
+    "sfx-settle": {
+      "file": "sfx-settle.mp3",
+      "duration": 2
+    }
+  },
+  "$comment": "Measured durations of the generated narration and SFX, written by scripts/generate-audio.mjs after each run. Tracked (unlike the mp3s themselves) because the caption layer imports it at build time and Remotion cannot compile against a file that might not exist. Empty until the first generation; with it empty, captions fall back to the estimated timings in script.json.",
+  "bgm": {
+    "file": "bgm.mp3",
+    "duration": 192.239979
+  }
+}

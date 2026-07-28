@@ -1,0 +1,301 @@
+{
+  "$comment": "Single source of truth for narration. Feeds three consumers: scripts/generate-audio.mjs (ElevenLabs input), scripts/generate-captions.mjs (.srt/.vtt), and the Captions component (open captions burned into the picture). Edit here, never downstream. Times are seconds from the start of the film. 'tts' is what ElevenLabs is asked to say — it uses phonetic spellings ('Ally-loop') and expanded numerals where the model mispronounces the written form; 'cues[].text' is what a viewer reads, and always uses the real spelling.",
+  "fps": 30,
+  "durationSec": 179,
+  "voice": {
+    "preferred": [
+      "Alice",
+      "Matilda",
+      "Charlotte",
+      "Lily",
+      "Sarah"
+    ],
+    "modelId": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.75,
+      "style": 0,
+      "use_speaker_boost": true,
+      "speed": 0.96
+    },
+    "$comment": "Slower than promo standard, because pace is a cognitive-accessibility issue and the film argues for exactly that. 0.92 was the first setting; at that speed the written lines totalled ~151s against a 171s film, which left almost no silence and defeated the point. The lines were cut rather than the delivery rushed, and 0.96 buys back the rest."
+  },
+  "vo": [
+    {
+      "id": "vo-01-barrier",
+      "scene": "barrier",
+      "startSec": 5,
+      "tts": "Someone is booking a ticket, using only a keyboard. They press Tab. Nothing moves. They press Enter. Nothing happens.",
+      "cues": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "Someone is booking a ticket, using only a keyboard."
+        },
+        {
+          "start": 9,
+          "end": 11.2,
+          "text": "They press Tab. Nothing moves."
+        },
+        {
+          "start": 11.2,
+          "end": 14,
+          "text": "They press Enter. Nothing happens."
+        }
+      ]
+    },
+    {
+      "id": "vo-02-why",
+      "scene": "why",
+      "startSec": 16,
+      "tts": "It isn't that developers don't care. Eighty-four percent of A.I. generated pages ship with accessibility failures. And telling the model to be accessible measures slightly worse than not mentioning it at all.",
+      "cues": [
+        {
+          "start": 16,
+          "end": 19,
+          "text": "It isn't that developers don't care."
+        },
+        {
+          "start": 19,
+          "end": 24,
+          "text": "84% of AI-generated pages ship with accessibility failures."
+        },
+        {
+          "start": 24,
+          "end": 30,
+          "text": "And telling the model to be accessible measures slightly worse than not mentioning it at all."
+        }
+      ]
+    },
+    {
+      "id": "vo-03-thesis",
+      "scene": "thesis",
+      "startSec": 33,
+      "tts": "Ally-loop. Write accessible U.I. by default. Verify it in a real browser. Then say exactly what you couldn't check.",
+      "cues": [
+        {
+          "start": 33,
+          "end": 35,
+          "text": "a11y-loop."
+        },
+        {
+          "start": 35,
+          "end": 38,
+          "text": "Write accessible UI by default."
+        },
+        {
+          "start": 38,
+          "end": 41.5,
+          "text": "Verify it in a real browser. Then say exactly what you couldn't check."
+        }
+      ]
+    },
+    {
+      "id": "vo-04-loop",
+      "scene": "loop",
+      "startSec": 43,
+      "tts": "It's two things. A skill that sets the rules while the agent writes the code. And a tool that opens a real browser and checks what actually rendered. Findings go back to the agent — it fixes them and audits again, until nothing's left.",
+      "cues": [
+        {
+          "start": 43,
+          "end": 47.7,
+          "text": "It's two things. A skill that sets the rules while the agent writes the code."
+        },
+        {
+          "start": 47.7,
+          "end": 53.5,
+          "text": "And a tool that opens a real browser and checks what actually rendered."
+        },
+        {
+          "start": 53.5,
+          "end": 57.2,
+          "text": "Findings go back to the agent —"
+        },
+        {
+          "start": 57.2,
+          "end": 62.5,
+          "text": "it fixes them and audits again, until nothing's left."
+        }
+      ]
+    },
+    {
+      "id": "vo-05-passes",
+      "scene": "passes",
+      "startSec": 66,
+      "tts": "Every audit renders the page five ways — default, dark, forced colours, reduced motion, and a three hundred and twenty pixel viewport. Most failures only show up in one of them. It also checks what axe core can't: focus visibility, focus traps, target size. And it audits the states your agent just built.",
+      "cues": [
+        {
+          "start": 66,
+          "end": 73.2,
+          "text": "Every audit renders the page five ways — default, dark, forced colours, reduced motion, and a 320-pixel viewport."
+        },
+        {
+          "start": 73.2,
+          "end": 77.4,
+          "text": "Most failures only show up in one of them."
+        },
+        {
+          "start": 77.4,
+          "end": 84.1,
+          "text": "It also checks what axe-core can't: focus visibility, focus traps, target size."
+        },
+        {
+          "start": 84.1,
+          "end": 89.5,
+          "text": "And it audits the states your agent just built."
+        }
+      ]
+    },
+    {
+      "id": "vo-06-before-after",
+      "scene": "beforeAfter",
+      "startSec": 92.5,
+      "tts": "This is the same page after the loop. A hundred and sixty-three failures, down to zero — and diff proves none were introduced. Same keystrokes as before. This time you can see where you are. And the button is a button.",
+      "cues": [
+        {
+          "start": 92.5,
+          "end": 96.5,
+          "text": "This is the same page after the loop."
+        },
+        {
+          "start": 96.5,
+          "end": 102,
+          "text": "163 failures, down to zero — and diff proves none were introduced."
+        },
+        {
+          "start": 102,
+          "end": 105,
+          "text": "Same keystrokes as before."
+        },
+        {
+          "start": 105,
+          "end": 111,
+          "text": "This time you can see where you are. And the button is a button."
+        }
+      ]
+    },
+    {
+      "id": "vo-07-benchmark",
+      "scene": "benchmark",
+      "startSec": 115.5,
+      "tts": "Six components, built twice by the same model. Thirty-five failures without the skill. One with it — before any audit ran. Six components, a single run: an illustration, not a study.",
+      "cues": [
+        {
+          "start": 115.5,
+          "end": 119,
+          "text": "Six components, built twice by the same model."
+        },
+        {
+          "start": 119,
+          "end": 124,
+          "text": "35 failures without the skill. One with it — before any audit ran."
+        },
+        {
+          "start": 124,
+          "end": 129,
+          "text": "Six components, a single run: an illustration, not a study."
+        }
+      ]
+    },
+    {
+      "id": "vo-08-honesty",
+      "scene": "honesty",
+      "startSec": 131,
+      "tts": "Automated testing catches about half of accessibility issues by volume. Only about a third of W.CAG criteria have any automated rule. So a clean report means no detectable failures — never that it's accessible. Every run says so, and lists what needs a person.",
+      "cues": [
+        {
+          "start": 131,
+          "end": 135.9,
+          "text": "Automated testing catches about half of accessibility issues by volume."
+        },
+        {
+          "start": 135.9,
+          "end": 140.8,
+          "text": "Only about a third of WCAG criteria have any automated rule."
+        },
+        {
+          "start": 140.8,
+          "end": 146.2,
+          "text": "So a clean report means no detectable failures — never that it's accessible."
+        },
+        {
+          "start": 146.2,
+          "end": 150.5,
+          "text": "Every run says so, and lists what needs a person."
+        }
+      ]
+    },
+    {
+      "id": "vo-09-cta",
+      "scene": "cta",
+      "startSec": 153.5,
+      "tts": "It's one skill file — so it works in Claude Code, Cursor, Copilot, Codex, anything reading the open Agent Skills standard. And one command in your pipeline. Accessibility stops being the audit at the end. It becomes the default at the start.",
+      "cues": [
+        {
+          "start": 153.5,
+          "end": 159.6,
+          "text": "It's one skill file — so it works in Claude Code, Cursor, Copilot, Codex, anything reading the open Agent Skills standard."
+        },
+        {
+          "start": 159.6,
+          "end": 163,
+          "text": "And one command in your pipeline."
+        },
+        {
+          "start": 163,
+          "end": 167.5,
+          "text": "Accessibility stops being the audit at the end."
+        },
+        {
+          "start": 167.5,
+          "end": 172.5,
+          "text": "It becomes the default at the start."
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "id": "sfx-key",
+      "prompt": "single soft mechanical keyboard keystroke, close mic, dry, no reverb, quiet",
+      "duration": 0.5,
+      "note": "one per Tab in the keyboard walks"
+    },
+    {
+      "id": "sfx-deadend",
+      "prompt": "low muted wooden thud, soft, dry, a door that does not open, no reverb tail",
+      "duration": 1,
+      "note": "the Enter that does nothing, scene 1"
+    },
+    {
+      "id": "sfx-page",
+      "prompt": "single sheet of paper turning, close and soft, no rustle tail",
+      "duration": 0.9,
+      "note": "scene changes on the paper palette"
+    },
+    {
+      "id": "sfx-wipe",
+      "prompt": "smooth soft cloth swipe, short, warm, no metallic whoosh, no sci-fi",
+      "duration": 0.8,
+      "note": "the before/after seam, scene 6"
+    },
+    {
+      "id": "sfx-tick",
+      "prompt": "tiny soft wooden tick, single, dry, quiet, like a clock escapement",
+      "duration": 0.5,
+      "note": "counters and per-pass reveals (0.5s is the ElevenLabs sound-generation minimum; the mix trims the tail)"
+    },
+    {
+      "id": "sfx-pass",
+      "prompt": "quiet warm affirmative chime, single note, soft mallet, short decay, not triumphant",
+      "duration": 1.2,
+      "note": "PASS results and the Converged verdict"
+    },
+    {
+      "id": "sfx-settle",
+      "prompt": "very soft low pad swell settling to silence, warm, no attack",
+      "duration": 2,
+      "note": "into scene 8, where the music thins out"
+    }
+  ]
+}

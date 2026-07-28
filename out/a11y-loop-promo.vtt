@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00:05.000 --> 00:00:08.426
+Someone is booking a ticket, using only a keyboard.
+
+00:00:08.426 --> 00:00:10.311
+They press Tab. Nothing moves.
+
+00:00:10.311 --> 00:00:12.709
+They press Enter. Nothing happens.
+
+00:00:16.000 --> 00:00:18.796
+It isn't that developers don't care.
+
+00:00:18.796 --> 00:00:23.457
+84% of AI-generated pages ship with accessibility failures.
+
+00:00:23.457 --> 00:00:29.050
+And telling the model to be accessible measures slightly worse than not mentioning it at all.
+
+00:00:33.000 --> 00:00:34.934
+a11y-loop.
+
+00:00:34.934 --> 00:00:37.835
+Write accessible UI by default.
+
+00:00:37.835 --> 00:00:41.220
+Verify it in a real browser. Then say exactly what you couldn't check.
+
+00:00:43.000 --> 00:00:46.873
+It's two things. A skill that sets the rules while the agent writes the code.
+
+00:00:46.873 --> 00:00:51.652
+And a tool that opens a real browser and checks what actually rendered.
+
+00:00:51.652 --> 00:00:54.701
+Findings go back to the agent —
+
+00:00:54.701 --> 00:00:59.068
+it fixes them and audits again, until nothing's left.
+
+00:01:06.000 --> 00:01:12.872
+Every audit renders the page five ways — default, dark, forced colours, reduced motion, and a 320-pixel viewport.
+
+00:01:12.872 --> 00:01:16.881
+Most failures only show up in one of them.
+
+00:01:16.881 --> 00:01:23.276
+It also checks what axe-core can't: focus visibility, focus traps, target size.
+
+00:01:23.276 --> 00:01:28.430
+And it audits the states your agent just built.
+
+00:01:32.500 --> 00:01:35.713
+This is the same page after the loop.
+
+00:01:35.713 --> 00:01:40.131
+163 failures, down to zero — and diff proves none were introduced.
+
+00:01:40.131 --> 00:01:42.541
+Same keystrokes as before.
+
+00:01:42.541 --> 00:01:47.361
+This time you can see where you are. And the button is a button.
+
+00:01:55.500 --> 00:01:59.016
+Six components, built twice by the same model.
+
+00:01:59.016 --> 00:02:04.038
+35 failures without the skill. One with it — before any audit ran.
+
+00:02:04.038 --> 00:02:09.060
+Six components, a single run: an illustration, not a study.
+
+00:02:11.000 --> 00:02:15.785
+Automated testing catches about half of accessibility issues by volume.
+
+00:02:15.785 --> 00:02:20.569
+Only about a third of WCAG criteria have any automated rule.
+
+00:02:20.569 --> 00:02:25.842
+So a clean report means no detectable failures — never that it's accessible.
+
+00:02:25.842 --> 00:02:30.040
+Every run says so, and lists what needs a person.
+
+00:02:33.500 --> 00:02:39.419
+It's one skill file — so it works in Claude Code, Cursor, Copilot, Codex, anything reading the open Agent Skills standard.
+
+00:02:39.419 --> 00:02:42.718
+And one command in your pipeline.
+
+00:02:42.718 --> 00:02:47.085
+Accessibility stops being the audit at the end.
+
+00:02:47.085 --> 00:02:51.937
+It becomes the default at the start.

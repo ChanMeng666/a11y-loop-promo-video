@@ -1,0 +1,16 @@
+{
+  "name": "contrast-fix",
+  "command": "a11y-loop contrast \"#6d7a82\" \"#ffffff\" --fix",
+  "argv": [
+    "a11y-loop",
+    "contrast",
+    "#6d7a82",
+    "#ffffff",
+    "--fix"
+  ],
+  "stdout": "#6d7a82 on #ffffff — 4.41:1\n  measured as: normal text\n  FAIL AA (4.5:1)  ·  FAIL AAA (7:1)\n  SC 1.4.3 Contrast (Minimum) (Level AA) requires 4.5:1\n\n  Candidates that reach 4.5:1 (hue and chroma preserved):\n    text darker: #6d7a82 → #6c7880  (4.41:1 → 4.52:1)\n\nContrast is measured with the WCAG 2.x algorithm; the ratio is truncated to two\ndecimals, matching axe-core and the WebAIM Contrast Checker.\n",
+  "stderr": "",
+  "exitCode": 1,
+  "durationMs": 668,
+  "capturedBy": "capture/run-cli.mjs — verbatim, untrimmed"
+}

@@ -1,0 +1,24 @@
+node_modules
+dist
+build
+.DS_Store
+
+# API keys
+.env
+.env.local
+
+# Local IDE / agent settings
+.claude/settings.local.json
+
+# Captured + generated media. Large, reproducible from the capture scripts and
+# the ElevenLabs/Suno steps — everything here is regenerable, so none of it is
+# tracked. The logo mark is the one hand-authored asset and is kept.
+public/*
+!public/a11y-loop-mark.svg
+capture/.tmp
+
+# Render output, except the shipped masters
+out/*
+!out/a11y-loop-promo.mp4
+!out/a11y-loop-promo.srt
+!out/a11y-loop-promo.vtt

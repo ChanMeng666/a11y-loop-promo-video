@@ -1,0 +1,494 @@
+{
+  "name": "before",
+  "source": "D:\\github_repository\\a11y-loop\\demo\\before",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scale": 2,
+  "pixelSize": {
+    "width": 2880,
+    "height": 1800
+  },
+  "capturedFrom": "unmodified page — no injected overlay or CSS",
+  "tabRing": {
+    "stopCount": 22,
+    "reachesRegister": false,
+    "stops": [
+      {
+        "tag": "input",
+        "label": "Full name",
+        "tabindex": "1"
+      },
+      {
+        "tag": "input",
+        "label": "Email address",
+        "tabindex": "2"
+      },
+      {
+        "tag": "a",
+        "label": "See the programme",
+        "tabindex": "3"
+      },
+      {
+        "tag": "a",
+        "label": "AWS26",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Programme",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Speakers",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Venue",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Sponsors",
+        "tabindex": null
+      },
+      {
+        "tag": "button",
+        "label": "",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Click here",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Read more",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "More info",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Click here",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "Organisation (optional)",
+        "tabindex": null
+      },
+      {
+        "tag": "select",
+        "label": "Ticket type\n          Earlybird — $340\n         ",
+        "tabindex": null
+      },
+      {
+        "tag": "textarea",
+        "label": "Dietary or access requirements",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Code of conduct",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Privacy",
+        "tabindex": null
+      }
+    ]
+  },
+  "dialogTrap": {
+    "stops": [
+      {
+        "tag": "body",
+        "inDialog": false,
+        "escapedToPage": false
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "button",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "a",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "input",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "select",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "textarea",
+        "inDialog": false,
+        "escapedToPage": true
+      },
+      {
+        "tag": "input",
+        "inDialog": false,
+        "escapedToPage": true
+      }
+    ],
+    "escapes": 15,
+    "chromeWrapStops": 1
+  },
+  "frames": [
+    {
+      "file": "kb-before/00.png",
+      "key": null,
+      "hold": 1400,
+      "note": "page loaded",
+      "dialog": "closed",
+      "focus": {
+        "none": true,
+        "scrollY": 0,
+        "landedOn": "body"
+      }
+    },
+    {
+      "file": "kb-before/01.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "input",
+        "role": null,
+        "type": "text",
+        "tabindex": "1",
+        "label": "Full name",
+        "rect": {
+          "x": 154,
+          "y": 504.4375,
+          "width": 305,
+          "height": 34
+        },
+        "scrollY": 1433,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(109, 122, 130)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/02.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "input",
+        "role": null,
+        "type": "email",
+        "tabindex": "2",
+        "label": "Email address",
+        "rect": {
+          "x": 469,
+          "y": 504.4375,
+          "width": 305,
+          "height": 34
+        },
+        "scrollY": 1433,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(109, 122, 130)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/03.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": "3",
+        "label": "See the programme",
+        "rect": {
+          "x": 321.875,
+          "y": 267.71875,
+          "width": 148.875,
+          "height": 36.84375
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/04.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "AWS26",
+        "rect": {
+          "x": 154,
+          "y": 14,
+          "width": 86.625,
+          "height": 28
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(126, 208, 196)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/05.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Programme",
+        "rect": {
+          "x": 982.984375,
+          "y": 19.578125,
+          "width": 62.21875,
+          "height": 16
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(143, 160, 171)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/06.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Speakers",
+        "rect": {
+          "x": 1067.203125,
+          "y": 19.578125,
+          "width": 47.328125,
+          "height": 16
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(143, 160, 171)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/07.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Venue",
+        "rect": {
+          "x": 1136.53125,
+          "y": 19.578125,
+          "width": 32.828125,
+          "height": 16
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(143, 160, 171)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/08.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Sponsors",
+        "rect": {
+          "x": 1191.359375,
+          "y": 19.578125,
+          "width": 48.640625,
+          "height": 16
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(143, 160, 171)",
+          "boxShadow": "none",
+          "visibleIndicator": false
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-before/09.png",
+      "key": "Enter",
+      "hold": 1600,
+      "note": "activate whatever has focus",
+      "dialog": "closed",
+      "focus": {
+        "none": true,
+        "scrollY": 1433,
+        "landedOn": "body"
+      }
+    },
+    {
+      "file": "kb-before/10.png",
+      "key": null,
+      "hold": 1800,
+      "note": "still no way to register",
+      "dialog": "closed",
+      "focus": {
+        "none": true,
+        "scrollY": 1433,
+        "landedOn": "body"
+      }
+    }
+  ]
+}

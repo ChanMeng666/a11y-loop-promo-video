@@ -1,0 +1,18 @@
+{
+  "name": "audit-interact",
+  "command": "a11y-loop audit --file demo/before/index.html --interact states.mjs",
+  "argv": [
+    "a11y-loop",
+    "audit",
+    "--file",
+    "D:\\github_repository\\a11y-loop\\demo\\before\\index.html",
+    "--interact",
+    "D:\\github_repository\\a11y-loop-promo-video\\capture\\states\\register-modal.mjs",
+    "--quiet"
+  ],
+  "stdout": "179 automatically detectable failures · 30 to review · 14 best-practice · 15 manual checks\n",
+  "stderr": "",
+  "exitCode": 1,
+  "durationMs": 13549,
+  "capturedBy": "capture/run-cli.mjs — verbatim, untrimmed"
+}

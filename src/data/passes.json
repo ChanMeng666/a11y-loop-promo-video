@@ -1,0 +1,346 @@
+{
+  "before": {
+    "passes": [
+      {
+        "id": "default",
+        "label": "default",
+        "detail": "1280 × 720",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {},
+        "file": "pass-before-default.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(153, 153, 153)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "2.84",
+          "passesAA": false,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-before-default.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 2333
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "dark",
+        "label": "dark mode",
+        "detail": "prefers-color-scheme: dark",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "colorScheme": "dark"
+        },
+        "file": "pass-before-dark.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(90, 90, 90)",
+          "backgroundColor": "rgb(26, 26, 26)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "2.52",
+          "passesAA": false,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-before-dark.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 2333
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "forced-colors",
+        "label": "forced colours",
+        "detail": "forced-colors: active",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "forcedColors": "active"
+        },
+        "file": "pass-before-forced-colors.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": null,
+        "fullFile": "passfull-before-forced-colors.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 2333
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "reduced-motion",
+        "label": "reduced motion",
+        "detail": "prefers-reduced-motion: reduce",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "reducedMotion": "reduce"
+        },
+        "file": "pass-before-reduced-motion.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(153, 153, 153)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "2.84",
+          "passesAA": false,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-before-reduced-motion.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 2333
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "reflow",
+        "label": "reflow",
+        "detail": "320 × 256 — the WCAG equivalent of 400% zoom, SC 1.4.10",
+        "viewport": {
+          "width": 320,
+          "height": 256
+        },
+        "context": {},
+        "file": "pass-before-reflow.png",
+        "pixelSize": {
+          "width": 640,
+          "height": 512
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(153, 153, 153)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": true
+        },
+        "contrast": {
+          "ratio": "2.84",
+          "passesAA": false,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-before-reflow.png",
+        "fullSize": {
+          "width": 320,
+          "height": 2333
+        },
+        "documentScrollWidth": 1180
+      }
+    ],
+    "fullPage": {
+      "file": "full-before.png",
+      "width": 1280,
+      "height": 2333,
+      "scale": 2
+    }
+  },
+  "after": {
+    "passes": [
+      {
+        "id": "default",
+        "label": "default",
+        "detail": "1280 × 720",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {},
+        "file": "pass-after-default.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(31, 42, 51)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "14.61",
+          "passesAA": true,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-after-default.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 4259
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "dark",
+        "label": "dark mode",
+        "detail": "prefers-color-scheme: dark",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "colorScheme": "dark"
+        },
+        "file": "pass-after-dark.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(232, 238, 244)",
+          "backgroundColor": "rgb(16, 24, 32)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "15.31",
+          "passesAA": true,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-after-dark.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 4259
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "forced-colors",
+        "label": "forced colours",
+        "detail": "forced-colors: active",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "forcedColors": "active"
+        },
+        "file": "pass-after-forced-colors.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": null,
+        "fullFile": "passfull-after-forced-colors.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 4259
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "reduced-motion",
+        "label": "reduced motion",
+        "detail": "prefers-reduced-motion: reduce",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "context": {
+          "reducedMotion": "reduce"
+        },
+        "file": "pass-after-reduced-motion.png",
+        "pixelSize": {
+          "width": 2560,
+          "height": 1440
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(31, 42, 51)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "14.61",
+          "passesAA": true,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-after-reduced-motion.png",
+        "fullSize": {
+          "width": 1280,
+          "height": 4291
+        },
+        "documentScrollWidth": 1280
+      },
+      {
+        "id": "reflow",
+        "label": "reflow",
+        "detail": "320 × 256 — the WCAG equivalent of 400% zoom, SC 1.4.10",
+        "viewport": {
+          "width": 320,
+          "height": 256
+        },
+        "context": {},
+        "file": "pass-after-reflow.png",
+        "pixelSize": {
+          "width": 640,
+          "height": 512
+        },
+        "measured": {
+          "selector": "section-lead",
+          "color": "rgb(31, 42, 51)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "documentHasHorizontalScroll": false
+        },
+        "contrast": {
+          "ratio": "14.61",
+          "passesAA": true,
+          "sc": "1.4.3"
+        },
+        "fullFile": "passfull-after-reflow.png",
+        "fullSize": {
+          "width": 320,
+          "height": 5722
+        },
+        "documentScrollWidth": 320
+      }
+    ],
+    "fullPage": {
+      "file": "full-after.png",
+      "width": 1280,
+      "height": 4259,
+      "scale": 2
+    }
+  }
+}

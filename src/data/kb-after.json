@@ -1,0 +1,680 @@
+{
+  "name": "after",
+  "source": "D:\\github_repository\\a11y-loop\\demo\\after",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scale": 2,
+  "pixelSize": {
+    "width": 2880,
+    "height": 1800
+  },
+  "capturedFrom": "unmodified page — no injected overlay or CSS",
+  "tabRing": {
+    "stopCount": 34,
+    "reachesRegister": true,
+    "stops": [
+      {
+        "tag": "a",
+        "label": "Skip to main content",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Aotearoa Web Summit 2026",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Programme",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Speakers",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Venue",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Sponsors",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Register",
+        "tabindex": null
+      },
+      {
+        "tag": "button",
+        "label": "Register now — $340",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "See the programme",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "See group booking rates",
+        "tabindex": null
+      },
+      {
+        "tag": "button",
+        "label": "Pause sponsor scroll",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Read the full session descriptions",
+        "tabindex": null
+      },
+      {
+        "tag": "div",
+        "label": "Day one — Thursday 12 November\n          \n      ",
+        "tabindex": "0"
+      },
+      {
+        "tag": "div",
+        "label": "Day two — Friday 13 November\n          \n        ",
+        "tabindex": "0"
+      },
+      {
+        "tag": "a",
+        "label": "Aroha Kingi\n            Principal Engineer, Kōwh",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Dev Ramanathan\n            Design Systems Lead, ",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Marika Sørensen\n            Typographer, indepen",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Tama Whitiora\n            Service Designer, Tūra",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Joss Ngata\n            Site Reliability Engineer",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Priya Sandhu\n            Staff Engineer, Souther",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "See all 24 speakers",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Open the venue map and access\n        informatio",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "Full name (required)",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "Email address (required)",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "Organisation (optional)",
+        "tabindex": null
+      },
+      {
+        "tag": "select",
+        "label": "Ticket type (required)",
+        "tabindex": null
+      },
+      {
+        "tag": "textarea",
+        "label": "Dietary or access requirements (optional)",
+        "tabindex": null
+      },
+      {
+        "tag": "input",
+        "label": "Email me about next year's summit",
+        "tabindex": null
+      },
+      {
+        "tag": "button",
+        "label": "Continue to payment",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Aotearoa Web Summit on Mastodon",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Aotearoa Web Summit on Bluesky",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Subscribe to the summit newsletter",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Code of conduct",
+        "tabindex": null
+      },
+      {
+        "tag": "a",
+        "label": "Privacy",
+        "tabindex": null
+      }
+    ]
+  },
+  "dialogTrap": {
+    "stops": [
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "button",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "a",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "body",
+        "inDialog": false,
+        "escapedToPage": false
+      },
+      {
+        "tag": "button",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "button",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "a",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "body",
+        "inDialog": false,
+        "escapedToPage": false
+      },
+      {
+        "tag": "button",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "input",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "button",
+        "inDialog": true,
+        "escapedToPage": false
+      },
+      {
+        "tag": "a",
+        "inDialog": true,
+        "escapedToPage": false
+      }
+    ],
+    "escapes": 0,
+    "chromeWrapStops": 2
+  },
+  "frames": [
+    {
+      "file": "kb-after/00.png",
+      "key": null,
+      "hold": 1400,
+      "note": "page loaded",
+      "dialog": "closed",
+      "focus": {
+        "none": true,
+        "scrollY": 0,
+        "landedOn": "body"
+      }
+    },
+    {
+      "file": "kb-after/01.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Skip to main content",
+        "rect": {
+          "x": 16,
+          "y": 16,
+          "width": 204.578125,
+          "height": 55.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/02.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Aotearoa Web Summit 2026",
+        "rect": {
+          "x": 192,
+          "y": 12,
+          "width": 249.78125,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/03.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Programme",
+        "rect": {
+          "x": 803.34375,
+          "y": 12,
+          "width": 98.796875,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/04.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Speakers",
+        "rect": {
+          "x": 918.140625,
+          "y": 12,
+          "width": 76.796875,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/05.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Venue",
+        "rect": {
+          "x": 1010.9375,
+          "y": 12,
+          "width": 55.734375,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/06.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Sponsors",
+        "rect": {
+          "x": 1082.671875,
+          "y": 12,
+          "width": 78.78125,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/07.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Register",
+        "rect": {
+          "x": 1177.453125,
+          "y": 12,
+          "width": 70.546875,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/08.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "button",
+        "role": null,
+        "type": "button",
+        "tabindex": null,
+        "label": "Register now — $340",
+        "rect": {
+          "x": 192,
+          "y": 338.1875,
+          "width": 213.640625,
+          "height": 55.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(234, 246, 255)",
+          "boxShadow": "rgb(11, 59, 54) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/09.png",
+      "key": "Enter",
+      "hold": 1600,
+      "note": "activate whatever has focus",
+      "dialog": "open",
+      "focus": {
+        "none": false,
+        "tag": "input",
+        "role": null,
+        "type": "email",
+        "tabindex": null,
+        "label": "Email address (required)",
+        "rect": {
+          "x": 485,
+          "y": 362.3125,
+          "width": 470,
+          "height": 51.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/10.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "open",
+      "focus": {
+        "none": false,
+        "tag": "input",
+        "role": null,
+        "type": "text",
+        "tabindex": null,
+        "label": "Discount code (optional)",
+        "rect": {
+          "x": 485,
+          "y": 492.6875,
+          "width": 470,
+          "height": 51.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/11.png",
+      "key": "Tab",
+      "hold": 520,
+      "note": null,
+      "dialog": "open",
+      "focus": {
+        "none": false,
+        "tag": "button",
+        "role": null,
+        "type": "submit",
+        "tabindex": null,
+        "label": "Pay $340",
+        "rect": {
+          "x": 485,
+          "y": 559.875,
+          "width": 116.125,
+          "height": 55.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/12.png",
+      "key": "Tab",
+      "hold": 620,
+      "note": "every stop stays inside the dialog",
+      "dialog": "open",
+      "focus": {
+        "none": false,
+        "tag": "a",
+        "role": null,
+        "type": null,
+        "tabindex": null,
+        "label": "Read our payment and refund terms",
+        "rect": {
+          "x": 485,
+          "y": 676.25,
+          "width": 466.671875,
+          "height": 44
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(10, 92, 199)",
+          "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    },
+    {
+      "file": "kb-after/13.png",
+      "key": "Escape",
+      "hold": 1800,
+      "note": "dialog closes, focus returns to the trigger",
+      "dialog": "closed",
+      "focus": {
+        "none": false,
+        "tag": "button",
+        "role": null,
+        "type": "button",
+        "tabindex": null,
+        "label": "Register now — $340",
+        "rect": {
+          "x": 192,
+          "y": 338.1875,
+          "width": 213.640625,
+          "height": 55.1875
+        },
+        "scrollY": 0,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(234, 246, 255)",
+          "boxShadow": "rgb(11, 59, 54) 0px 0px 0px 2px",
+          "visibleIndicator": true
+        },
+        "keyboardOperable": true
+      }
+    }
+  ]
+}

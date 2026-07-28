@@ -1,0 +1,38 @@
+[
+  {
+    "name": "audit-before",
+    "command": "a11y-loop audit --file demo/before/index.html",
+    "exitCode": 1,
+    "durationMs": 9169
+  },
+  {
+    "name": "audit-after",
+    "command": "a11y-loop audit --file demo/after/index.html",
+    "exitCode": 0,
+    "durationMs": 9939
+  },
+  {
+    "name": "diff",
+    "command": "a11y-loop diff --before before.json --after after.json",
+    "exitCode": 0,
+    "durationMs": 1198
+  },
+  {
+    "name": "audit-interact",
+    "command": "a11y-loop audit --file demo/before/index.html --interact states.mjs",
+    "exitCode": 1,
+    "durationMs": 13549
+  },
+  {
+    "name": "contrast-self",
+    "command": "a11y-loop contrast \"#0B4AA8\" \"#FAFAF7\"",
+    "exitCode": 0,
+    "durationMs": 663
+  },
+  {
+    "name": "contrast-fix",
+    "command": "a11y-loop contrast \"#6d7a82\" \"#ffffff\" --fix",
+    "exitCode": 1,
+    "durationMs": 668
+  }
+]
