@@ -4,6 +4,12 @@ A 2:59 film about [a11y-loop](https://github.com/ChanMeng666/a11y-loop), built w
 [Remotion](https://remotion.dev), narrated with [ElevenLabs](https://elevenlabs.io), scored with
 [Suno](https://suno.com), and assembled with Claude Code.
 
+
+
+https://github.com/user-attachments/assets/f0511bbc-938b-4797-9930-eb5c278fede9
+
+
+
 | | |
 |---|---|
 | Resolution | 1920 × 1080 |
