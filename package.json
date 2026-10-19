@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Promotional / feature video for a11y-loop, built with Remotion",
   "repository": {},
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "dependencies": {
